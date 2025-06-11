@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(51, 19, 56);
+}
+
+#main_container {
+    background-color: rgb(75, 42, 146);
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgb(215, 173, 255);
+    border-style: outset;
+    border-color: rgb(184, 107, 255);
+}
+
+#box1 {
+    grid-column: 1/3;
+}
+
+#box3 {
+    grid-row: 2/4;
+    grid-column: 2/3;
+}
+
+#box6 {
+    grid-column: 1/3;
+}
